@@ -80,7 +80,7 @@ AI automatically creates a TODO plan and with status indicators you can watch th
 <img width="1891" height="930" alt="image" src="https://github.com/user-attachments/assets/89181555-3333-4807-930e-33f84fe304c8" />
 
 
-After you approve plan, it proceed the plan. If you want to make a chnage in plan, just tell to AI.
+After you approve plan, it proceed the plan. If you want to make a change in plan, just tell to AI.
 
 **Status Indicators:**
 - ⭕ Not started
