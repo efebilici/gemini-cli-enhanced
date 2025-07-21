@@ -83,21 +83,16 @@ The enhanced CLI automatically includes a comprehensive system prompt that:
 - Ensures adherence to existing code conventions
 
 ### Integrated TODO Tool
-Manage your development tasks directly within the CLI:
+AI automatically creats a TODO plan and with status indicators you can watch the development.
 
-```text
-> Use the todo_tool to add a task: "Implement user authentication"
-> Use the todo_tool to show my current tasks
-> Use the todo_tool to update task 1 status to in_progress
-> Use the todo_tool to mark task 1 as completed
-```
+<img width="1891" height="930" alt="image" src="https://github.com/user-attachments/assets/563e64e7-34dc-4ccd-b9cf-88f97f3726b1" />
+
+After you approve plan, it proceed the plan. If you want to make a chnage in plan, just tell to AI.
 
 **Status Indicators:**
 - ⭕ Not started
 - 🔄 In progress  
 - ✅ Completed
-
-**Note:** The TODO list automatically resets when you return to the main prompt, encouraging focused work sessions.
 
 ### Use a Gemini API key:
 
