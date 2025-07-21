@@ -24,13 +24,18 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-const generatedDir = join(root, 'packages/cli/src/generated');
-const gitCommitFile = join(generatedDir, 'git-commit.ts');
+const generatedDirs = [
+  join(root, 'packages/cli/src/generated'),
+  join(root, 'packages/cli-enhanced/src/generated')
+];
 let gitCommitInfo = 'N/A';
 
-if (!existsSync(generatedDir)) {
-  mkdirSync(generatedDir, { recursive: true });
-}
+// Ensure both generated directories exist
+generatedDirs.forEach(dir => {
+  if (!existsSync(dir)) {
+    mkdirSync(dir, { recursive: true });
+  }
+});
 
 try {
   const gitHash = execSync('git rev-parse --short HEAD', {
@@ -60,4 +65,8 @@ const fileContent = `/**
 export const GIT_COMMIT_INFO = '${gitCommitInfo}';
 `;
 
-writeFileSync(gitCommitFile, fileContent);
+// Write to both CLI packages
+generatedDirs.forEach(dir => {
+  const gitCommitFile = join(dir, 'git-commit.ts');
+  writeFileSync(gitCommitFile, fileContent);
+});

@@ -1,11 +1,23 @@
-# Gemini CLI
+# Gemini CLI & Gemini CLI Enhanced
 
 [![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
 
 ![Gemini CLI Screenshot](./docs/assets/gemini-screenshot.png)
 
-This repository contains the Gemini CLI, a command-line AI workflow tool that connects to your
-tools, understands your code and accelerates your workflows.
+This repository contains both the **Gemini CLI** and **Gemini CLI Enhanced**, command-line AI workflow tools that connect to your tools, understand your code and accelerate your workflows.
+
+## 🚀 Two Versions Available
+
+### **Gemini CLI** (Original)
+The standard Gemini CLI experience with all core features.
+
+### **Gemini CLI Enhanced** 🌟
+An enhanced version that includes:
+- **Default Custom Instruction**: Built-in system prompt focusing on task verification, concise communication, systematic planning, security-first development, and code convention adherence
+- **Integrated TODO Tool**: Task management with status indicators (⭕ not started, 🔄 in progress, ✅ completed)
+- **Enhanced Workflow**: Optimized for professional development workflows
+
+Both versions can be installed and used side-by-side.
 
 With the Gemini CLI you can:
 
@@ -20,28 +32,72 @@ With the Gemini CLI you can:
 ## Quickstart
 
 1. **Prerequisites:** Ensure you have [Node.js version 20](https://nodejs.org/en/download) or higher installed.
-2. **Run the CLI:** Execute the following command in your terminal:
 
+2. **Choose Your Version:**
+
+   ### Standard Gemini CLI
    ```bash
    npx https://github.com/google-gemini/gemini-cli
    ```
 
-   Or install it with:
-
+   Or install globally:
    ```bash
    npm install -g @google/gemini-cli
+   gemini
    ```
 
-   Then, run the CLI from anywhere:
-
+   ### Gemini CLI Enhanced 🌟
+   For the enhanced version with TODO tool and custom instructions:
    ```bash
-   gemini
+   # Clone and build from source
+   git clone https://github.com/google-gemini/gemini-cli
+   cd gemini-cli
+   npm install
+   npm run build:packages
+   
+   # Install both versions globally
+   npm install -g ./packages/cli          # Standard: gemini
+   npm install -g ./packages/cli-enhanced # Enhanced: gemini-enhanced
+   ```
+
+   Then run either version:
+   ```bash
+   gemini           # Standard version
+   gemini-enhanced  # Enhanced version
    ```
 
 3. **Pick a color theme**
 4. **Authenticate:** When prompted, sign in with your personal Google account. This will grant you up to 60 model requests per minute and 1,000 model requests per day using Gemini.
 
 You are now ready to use the Gemini CLI!
+
+## 🌟 Enhanced Features (gemini-enhanced only)
+
+The enhanced version includes additional productivity features:
+
+### Default Custom Instruction
+The enhanced CLI automatically includes a comprehensive system prompt that:
+- Emphasizes task verification and systematic planning
+- Promotes concise, direct communication
+- Enforces security-first development practices
+- Ensures adherence to existing code conventions
+
+### Integrated TODO Tool
+Manage your development tasks directly within the CLI:
+
+```text
+> Use the todo_tool to add a task: "Implement user authentication"
+> Use the todo_tool to show my current tasks
+> Use the todo_tool to update task 1 status to in_progress
+> Use the todo_tool to mark task 1 as completed
+```
+
+**Status Indicators:**
+- ⭕ Not started
+- 🔄 In progress  
+- ✅ Completed
+
+**Note:** The TODO list automatically resets when you return to the main prompt, encouraging focused work sessions.
 
 ### Use a Gemini API key:
 

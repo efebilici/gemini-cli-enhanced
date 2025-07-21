@@ -289,6 +289,7 @@ export enum ToolConfirmationOutcome {
 }
 
 export enum Icon {
+  CheckCircle = 'checkCircle',
   FileSearch = 'fileSearch',
   Folder = 'folder',
   Globe = 'globe',
