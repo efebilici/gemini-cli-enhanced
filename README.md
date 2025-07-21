@@ -33,21 +33,10 @@ With the Gemini CLI you can:
 
 1. **Prerequisites:** Ensure you have [Node.js version 20](https://nodejs.org/en/download) or higher installed.
 
-2. **Choose Your Version:**
+2. **Install:**
 
-   ### Standard Gemini CLI
-   ```bash
-   npx https://github.com/google-gemini/gemini-cli
-   ```
-
-   Or install globally:
-   ```bash
-   npm install -g @google/gemini-cli
-   gemini
-   ```
-
-   ### Gemini CLI Enhanced 🌟
-   For the enhanced version with TODO tool and custom instructions:
+   ### Standard Gemini CLI & Gemini CLI Enhanced 🌟
+   For installing both standard version and the enhanced version with TODO tool and custom instructions:
    ```bash
    # Clone and build from source
    git clone https://github.com/efebilici/gemini-cli-enhanced
