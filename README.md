@@ -1,7 +1,5 @@
 # Gemini CLI & Gemini CLI Enhanced
 
-[![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
-
 ![Gemini CLI Screenshot](./docs/assets/gemini-screenshot.png)
 
 This repository contains both the **Gemini CLI** and **Gemini CLI Enhanced**, command-line AI workflow tools that connect to your tools, understand your code and accelerate your workflows.
