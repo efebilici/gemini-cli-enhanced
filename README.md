@@ -83,7 +83,7 @@ The enhanced CLI automatically includes a comprehensive system prompt that:
 - Ensures adherence to existing code conventions
 
 ### Integrated TODO Tool
-AI automatically creats a TODO plan and with status indicators you can watch the development.
+AI automatically creates a TODO plan and with status indicators you can watch the development.
 
 
 #### Before the plan is approved
