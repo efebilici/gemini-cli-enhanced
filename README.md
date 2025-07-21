@@ -1,4 +1,4 @@
-# Gemini CLI & Gemini CLI Enhanced |⌐■_■|
+# Gemini CLI & Gemini CLI Enhanced
 
 [![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
 
@@ -11,7 +11,7 @@ This repository contains both the **Gemini CLI** and **Gemini CLI Enhanced**, co
 ### **Gemini CLI** (Original)
 The standard Gemini CLI experience with all core features.
 
-### **Gemini CLI Enhanced** |⌐■_■|
+### **Gemini CLI Enhanced** 🌟
 An enhanced version that includes:
 - **Default Custom Instruction**: Built-in system prompt focusing on task verification, concise communication, systematic planning, security-first development, and code convention adherence
 - **Integrated TODO Tool**: Task management with status indicators (⭕ not started, 🔄 in progress, ✅ completed)
