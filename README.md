@@ -10,6 +10,10 @@ This repository contains both the **Gemini CLI** and **Gemini CLI Enhanced**, co
 The standard Gemini CLI experience with all core features.
 
 ### **Gemini CLI Enhanced** 🌟
+
+<img width="1482" height="763" alt="image" src="https://github.com/user-attachments/assets/1c968f1e-be73-41bd-a803-87efdf6fc786" />
+
+
 An enhanced version that includes:
 - **Default Custom Instruction**: Built-in system prompt focusing on task verification, concise communication, systematic planning, security-first development, and code convention adherence
 - **Integrated TODO Tool**: Task management with status indicators (⭕ not started, 🔄 in progress, ✅ completed)
