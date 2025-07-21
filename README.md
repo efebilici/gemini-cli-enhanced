@@ -50,8 +50,8 @@ With the Gemini CLI you can:
    For the enhanced version with TODO tool and custom instructions:
    ```bash
    # Clone and build from source
-   git clone https://github.com/google-gemini/gemini-cli
-   cd gemini-cli
+   git clone https://github.com/efebilici/gemini-cli-enhanced
+   cd gemini-cli-enhanced
    npm install
    npm run build:packages
    
