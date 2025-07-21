@@ -85,7 +85,13 @@ The enhanced CLI automatically includes a comprehensive system prompt that:
 ### Integrated TODO Tool
 AI automatically creats a TODO plan and with status indicators you can watch the development.
 
+
+#### Before the plan is approved
 <img width="1891" height="930" alt="image" src="https://github.com/user-attachments/assets/563e64e7-34dc-4ccd-b9cf-88f97f3726b1" />
+
+#### After the plan is approved
+<img width="1891" height="930" alt="image" src="https://github.com/user-attachments/assets/89181555-3333-4807-930e-33f84fe304c8" />
+
 
 After you approve plan, it proceed the plan. If you want to make a chnage in plan, just tell to AI.
 
